@@ -28,8 +28,10 @@ int main() {
                 }
         }
     }
+    string out;
     for (int i = 0; i < n; i++) {
-        cout << output[i];
+        out[i] = output[i] + 96;
+        cout << out[i];
         if (i != n - 1) {
            cout << " ";
         }
